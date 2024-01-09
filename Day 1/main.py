@@ -1,3 +1,8 @@
+print('= MUSIC+ =');
+print("> Songs");
+print('> Albums');
+print('> Artists');
+
 print('''Ryan
 January 8, 2024
 
