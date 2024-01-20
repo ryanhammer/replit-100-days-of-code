@@ -15,7 +15,7 @@ elif position == 'guard':
   guardWithPodcast = input('Name a guard who has a podcast: ')
   if guardWithPodcast == 'Tyrese Maxey':
     print('Congratulations! Tyrese Maxey DOES host a podcast!')
-  elif guardWithPodcast == ('Pat Bev' or 'PatBev' or 'Patrick Beverley'):
+  elif guardWithPodcast == 'Pat Bev' or guardWithPodcast == 'PatBev' or guardWithPodcast == 'Patrick Beverley':
     print('Congratulations! Pat Bev DOES host a podcast!')
   else:
     print('Sorry, that is not one of the correct answers')
