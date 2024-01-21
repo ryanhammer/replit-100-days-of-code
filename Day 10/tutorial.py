@@ -23,6 +23,7 @@ print(modulo)
 divisor = 15 // 2
 print(divisor)
 
+
 # Fix My Code
 # Before:
 👉 # Solve the following problems with my code
@@ -47,3 +48,10 @@ print(2467 / 4673)
 print(10**2)
 
 print(343 % 4)
+
+
+# Let's Split the Bill
+myBill = float(input("What was the bill?: "))
+numberOfPeople = int(input("How many people?: "))
+answer = myBill / numberOfPeople
+print("You all owe", round(answer, 2))
